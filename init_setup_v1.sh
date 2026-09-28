@@ -11,7 +11,6 @@ echo "Deploy jenkins container"
 
 echo "Check network firewall"
 
-#!/bin/bash
 
 # Ensure the script is run as root
 if [ "$EUID" -ne 0 ]; then
@@ -313,7 +312,7 @@ echo
 
 echo "Install Ansible"
 
-#!/bin/bash
+
 
 # Ensure script is run as root
 if [ "$EUID" -ne 0 ]; then
